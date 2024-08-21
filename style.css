@@ -1,0 +1,65 @@
+body{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20210814/pngtree-geometry-symbol-course-explains-educational-mathematical-formula-background-image_763120.jpg");
+}
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 20px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#cold{
+    width: 93%;
+    padding: 15px;
+    font-size: 5rem;
+    text-align: left;
+    border-color: hsl(0, 0%, 15%);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.883);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    color: rgba(255, 255, 255, 0.89);
+    background-color: hsl(0, 0%, 30%);
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+
+&:hover{
+    background-color: hsl(0, 0%, 45%);
+}
+
+&:active{
+    background-color: hsl(0, 0%, 60%);
+}
+}
+
+
+
+h2{
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+}
+
+
+   
